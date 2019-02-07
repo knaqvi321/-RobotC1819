@@ -5,10 +5,10 @@
 
 task main()
 {
-	setServo(servoMotor, -127);
-	wait(2);
-	setServo(servoMotor, 0);
-	wait(2);
-	setServo(servoMotor, 127);
-	wait(2);
+	setServo(servoMotor, -127); // start servo motor,turn left
+	wait(2); // wait 2 seconds
+	setServo(servoMotor, 0); // stop servo motor
+	wait(2); // wait 2 seconds
+	setServo(servoMotor, 127); // start servo motor, turn right
+	wait(2); // wait 2 seconds.
 }
