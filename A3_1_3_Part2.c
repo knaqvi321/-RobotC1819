@@ -14,8 +14,8 @@
 
 task main()
 {
-untilBump(bumpSwitch);
-startMotor(leftMotor, 63);
-wait(5);
-stopMotor(leftMotor);
+untilBump(bumpSwitch);//click switch
+startMotor(leftMotor, 63);//start motor
+wait(5);//wait 5 sec
+stopMotor(leftMotor);//stop motor
 }

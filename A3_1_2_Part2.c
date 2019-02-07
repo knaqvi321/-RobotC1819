@@ -6,12 +6,12 @@
 
 task main()
 {
-startMotor(rightMotor, 62);
-StartMotor(leftMotor, 62)
-wait(5);
-stopMotor(leftMotor);
+startMotor(rightMotor, 62);//start motor
+StartMotor(leftMotor, 62)//start left motor
+wait(5);//wait 5 sec
+stopMotor(leftMotor);//stop left motor
 
-stopMotor(rightMotor);
+stopMotor(rightMotor);//stop right motor
 
 
 
